@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500|Russo+One|Pacifico&display=swap');
+@charset "utf-8";
+/* CSS Document */
+	
+.embl{
+    position: absolute;
+	padding: 5px;	
+	top: 10px;
+	left: 20px;
+}
+.wrap-block{
+	display: table-cell;
+	vertical-align: middle;
+}
+.wrap p{
+	font-family: 'Exo 2', sans-serif;
+	margin-top: 10px;
+	margin-left: 12%;
+	font-size: 30px;
+}
+.inst img {
+    width: 50px;
+	position: absolute;
+	right: 25px;
+	top: -50px;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+.inst img.img_bottom:hover {
+    opacity:0;
+}
+.cont img {
+    width: 50px;
+	position: absolute;
+	right: 25px;
+	top: -50px;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+.cont img.img_bottom:hover {
+    opacity:0;
+}
+.face img {
+    width: 50px;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+.face img.img_bottom:hover {
+    opacity:0;
+}
+.header h2{
+	font-family: 'Russo One', sans-serif;
+	font-weight: 400;
+	margin: auto;
+	margin-left: -15px;
+	text-align: center;
+	font-size: 35px;
+	position: absolute;
+}
+.row h2{
+	left: 60px;
+}
+.r1{
+	margin-top: 70px;
+}
+.r1 h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 35px;
+}
+.r1 p{
+	margin-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+}
+.r1 img{
+	/*box-shadow: 0 0 25px rgba(0,0,0,0.4); */
+}
+.r2 p{
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	text-align: center;	
+}
+.sell h3{
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+.sell:hover{
+	background-color: #3B6F14;
+	transform: scale(1.1);
+}
+.sell:hover h3{
+	color: white;
+}
+.sell{
+	box-shadow: 0px 0px 15px 7px rgba(0,51,0,1);
+	-webkit-border-top-left-radius: 10px; 
+    -webkit-border-top-right-radius: 20px; 
+    -webkit-border-bottom-right-radius: 30px; 
+    -webkit-border-bottom-left-radius: 40px;
+	-moz-border-radius: 10px 20px 30px 40px;
+}
+.size{
+	box-shadow: 0px 0px 15px 7px rgba(0,51,0,1);
+	-webkit-border-top-left-radius: 10px; 
+    -webkit-border-top-right-radius: 20px; 
+    -webkit-border-bottom-right-radius: 30px; 
+    -webkit-border-bottom-left-radius: 40px;
+	-moz-border-radius: 10px 20px 30px 40px;
+}
+.price{
+	box-shadow: 0px 0px 15px 7px rgba(0,51,0,1);
+	-webkit-border-top-left-radius: 10px; 
+    -webkit-border-top-right-radius: 20px; 
+    -webkit-border-bottom-right-radius: 30px; 
+    -webkit-border-bottom-left-radius: 40px;
+	-moz-border-radius: 10px 20px 30px 40px;
+}
+/*.size:hover{
+	transition: 0.7s;
+	box-shadow: 0px 0px 15px 7px rgba(0,51,0,1);
+}*/
+.r3{
+	padding-top: 10px;
+	padding-bottom: 63px;
+}
+.r3 h3{
+	font-family: 'Russo One', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+.r3 p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	text-align: center;
+}
+.size p{
+	font-size: 20px;
+	padding-bottom: 9px;
+}
+.end{
+	height: 85px;
+	width: 100%;
+	background-color: #003300;
+	text-align: center;
+	/*position: absolute;*/
+	flex: 0 0 auto;
+}
+.end h2{
+	padding-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.descript p{
+	padding-top: 70px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	text-align: center;
+}
+
+@media (min-width: 1202px){
+	.inst img{
+		top: -55px;
+		right: 30px;
+	}
+	.face img{
+		top: -55px;
+		right: 90px;
+	}
+	.cont img{
+		top: -55px;
+		right: 185px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1201px){
+	.inst img{
+		top: -25px;
+		right: 10px;
+	}
+	.face img{
+		top: -25px;
+		right: 70px;
+	}
+	.cont img{
+		top: -25px;
+		right: 170px;
+	}
+	.header h2{
+		margin-left: -45px;
+	}
+	.wrap p{
+		margin-left: 0%;
+	}
+	.r1 h1{
+		font-size: 31px;
+	}
+	.r3{
+	padding-bottom: 10px;
+	}
+	.price p{
+		font-size: 20px;
+	}
+	.size p{
+		font-size: 17px;
+		padding-bottom: 5px;
+	}.sell h3{
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.inst img{
+		top: -105px;
+		right: 10px;
+	}
+	.face img{
+		top: -105px;
+		right: 70px;
+	}
+	.cont img{
+		top: -105px;
+		right: 165px;
+	}
+	.header h2{
+		margin-left: -45px;
+	}
+	.wrap p{
+		margin-left: 0%;
+	}
+	.row h2{
+		left: 40px;
+	}
+	.r1{
+		text-align: center;
+	}
+	.r1 h1{
+		padding-top: 10px;
+		font-size: 30px;
+	}
+	.r1 p{
+		font-size: 24px;
+	}
+	.r3{
+	padding-bottom: 15px;
+	}
+	.r3 h3{
+		font-size: 27px;
+	}
+	.r3 p{
+		font-size: 22px;
+	}
+	.sell h3{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.price p{
+		font-size: 20px;
+	}
+	.size p{
+		font-size: 17px;
+		padding-bottom: 5px;
+	}.sell h3{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px){
+	.wrap p{
+		font-size: 25px;
+		margin-left: -5%;
+	}
+	.cont img{
+		top: -65px;
+		right: 120px;
+	}
+	.inst img{
+		top: -65px;
+		right: -5px;
+	}
+	.face img{
+		top: -65px;
+		right: 50px;
+	}
+	.header h2{
+		font-family: 'Russo One', sans-serif;
+		font-weight: 400;
+		margin: auto;
+		margin-left: 0px;
+		text-align: center;
+		font-size: 30px;
+		position: absolute;
+	}
+	.r1{
+		margin-top: 40px;
+		text-align: center;
+	}
+	.r1 h1{
+		padding-top: 10px;
+		font-size: 25px;
+	}
+	.r1 p{
+		font-size: 22px;
+	}
+	.r2 p{
+		font-size: 20px;
+	}
+	.sell{
+		margin-top: 10px;
+		-webkit-border-top-left-radius: 20px; 
+ 	  	-webkit-border-top-right-radius: 20px; 
+ 	    -webkit-border-bottom-right-radius: 20px; 
+ 	    -webkit-border-bottom-left-radius: 20px;
+		-moz-border-radius: 20px 20px 20px 20px;
+	}
+	.size{
+		-webkit-border-top-left-radius: 20px; 
+ 	    -webkit-border-top-right-radius: 10px; 
+	    -webkit-border-bottom-right-radius: 40px; 
+	    -webkit-border-bottom-left-radius: 30px;
+		-moz-border-radius: 20px 10px 40px 30px;
+	}
+	.r3{
+		padding-bottom: 30px;
+	}
+	.price p{
+		font-size: 20px;
+	}
+	.size p{
+		font-size: 15px;
+		padding-bottom: 5px;
+	}.sell h3{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+
+
+
